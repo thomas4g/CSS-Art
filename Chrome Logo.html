@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrome Logo - CSS</title>
+    <style type="text/css">
+      .chrome {
+        margin-top:20px;
+        border-radius:50%;
+        position:relative;
+        border-style:solid;
+        border-width:20px;
+        border-top-color:red;
+        border-left-color:green;
+        border-right-color:yellow;
+        border-bottom-color:green;
+        width:20px;
+        height:20px;
+        background-color:rgb(50,120,200);
+          }
+      .chrome:before,.chrome:after{
+       content:"";
+        position:absolute;
+        height:20px;
+        width:20px;
+           
+       border-radius:50%;
+        border-style:solid;
+        border-width:20px;
+               margin-top:-20px;
+        margin-left:-20px;
+        }
+      .chrome:before {
+       
+        border-top-color:red;
+        border-left-color:transparent;
+        border-right-color:transparent;
+        border-bottom-color:green;
+        margin-top:-20px;
+        margin-left:-20px;
+        -webkit-transform:rotate(35deg)
+      }
+      .chrome:after {
+        border-color:transparent;
+        border-bottom-color:yellow;
+        -webkit-transform:rotate(-30deg);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="chrome"></div>
+  </body>
+</html>

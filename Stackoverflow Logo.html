@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StackOverflow Logo - CSS</title>
+    <style type="text/css">
+	h2 {
+        display:inline-block; 
+        margin-left:5px;
+        font-size:30px;
+        font-family:Segoe UI;
+        font-weight:normal;
+        text-shadow:#999 0 0 1px;
+      }
+      .so {
+        width:30px;
+        height:20px;
+        border:4px solid #999;
+        border-top:none;
+        position:relative;
+        margin-top:20px;
+        display:inline-block;
+       }
+      .so:before, .so:after, .so span, .so span:before, .so span:after {
+        content:"";
+        width:24px;
+        height:5px;
+        background-color:#888;
+        position:absolute;
+       }
+      .so:before {
+        top:10px;
+        left:3px; 
+      }
+      .so:after {
+        -webkit-transform:rotate(7deg); 
+        top:2px;
+        left:3px;
+        background-color:#A68A6E;
+      }
+      .so span:first-child {
+        top:-7px;
+        left:4px;
+        background-color:#c09553;
+        -webkit-transform:rotate(20deg);
+      }
+      .so span:first-child:before {
+        background-color:#d38b28;
+        -webkit-transform:rotate(16deg);
+        top:-9px;
+        left:1px;
+      }
+      .so span:first-child:after {
+        background-color:#FD8A07;
+        -webkit-transform:rotate(40deg);
+        top:-18px;
+        left:6px
+      }
+      .so span:last-child {
+        background-color:#FE7A15;
+        top:-25px;
+        left:25px;
+        -webkit-transform:rotate(80deg);
+      }
+      .so span:last-child:before, .so span:last-child:after { display:none; }
+    </style>
+  </head>
+  <body>
+    <div class="so"><span></span><span></span></div><h2>stack<strong>overflow</strong></h2>
+  </body>
+</html>
