@@ -1,5 +1,5 @@
 CSS Art is a collection of neat designs that can be accomplished with CSS. Some are useful, semantic designs that don't require lots of markup to work, others are doodles that serve no real purpose, like logos.
 As an aside, while several of these designs are great for real life design, others are not. Even if a logo can be made with CSS only, it shouldn't: CSS is for design. In a feed reader, non-CSS enabled browser, the logo won't show up, and that's bad. 
 If you want to contribute to the project, fork it, create a new html file (or edit an existing file) with your design (no separate CSS files, please), and submit a pull request.
-If you submit several designs and want to become an "official" contributor, email me and i'll consider adding you.
+
 Thanks, and enjoy. :) 
